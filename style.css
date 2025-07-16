@@ -1776,7 +1776,62 @@ body.dark-mode .contact-form-card {
             color: rgba(255, 255, 255, 0.5);
         }
 
-        /* ===== Responsive Design ===== */
+
+
+
+
+    /* ===== Responsive Footer ===== */
+@media screen and (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .footer-content p {
+        font-size: 0.8rem;
+    }
+
+    .footer-links a {
+        font-size: 0.85rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 20px 5%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer-social {
+        gap: 10px;
+    }
+
+    .footer-content p {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+  
+        /* ===== Responsive Design for all ===== */
         @media (max-width: 992px) {
             .hero-content h1 {
                 font-size: 2.8rem;
@@ -1843,7 +1898,7 @@ body.dark-mode .contact-form-card {
                 grid-template-columns: 1fr;
             }
         }
-
+      
 
 
 
